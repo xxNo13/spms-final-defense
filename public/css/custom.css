@@ -1,0 +1,109 @@
+/* Dark theme custom */
+body.theme-dark .select2-container--default .select2-selection--single,
+body.theme-dark .select2-container--default .select2-selection--multiple, 
+body.theme-dark .select2-dropdown, 
+body.theme-dark .select2-container--default .select2-search--dropdown .select2-search__field {
+    background: #1e1e2d;
+    color: #fff;
+    border: 1px solid #6c757d;
+}
+body.theme-dark .select2-container--default .select2-selection--multiple .select2-selection__rendered li {
+    background:  #1e1e2d;
+    color: #fff;
+}
+body.theme-dark .select2-container--default .select2-selection--single .select2-selection__rendered,
+body.theme-dark .select2-container--default .select2-search--inline .select2-search__field {
+    color: #fff;
+}
+body.theme-dark .select2-container--default .select2-results__option[aria-selected=true] {
+    background-color: #3c3c4e;
+}
+
+body.theme-dark .toast-container .toast-body strong.me-auto {
+    color: #1e1e2d;
+}
+
+body.theme-dark .bg-white,
+body.theme-dark .bg-light {
+    background-color: #1e1e2d !important;
+}
+
+.select2-container--default {
+    width: 100% !important;
+}
+#auth #auth-left {
+    padding: 5rem 6rem;
+}
+#auth #auth-left .auth-logo {
+    margin-bottom: 2rem;
+}
+#auth #auth-left .auth-title {
+    font-size: 2rem;
+}
+#auth #auth-left .auth-subtitle {
+    font-size: 1rem;
+}
+.center-form {
+    width: 50%;
+}
+.max-w-33 {
+    max-width: 32.5% !important;
+}
+.max-w-33 .select2-container {
+    width: 90.5% !important;
+}
+/* .table-responsive .table tbody tr td {
+    max-width: 0;
+} */
+
+.file-accordion.accordion-button {
+    width: fit-content !important;
+}
+
+.file-accordion.accordion-button::after {
+    content: none !important;
+}
+
+.file-accordion.accordion-button i.bi::before {
+    vertical-align: baseline !important;
+}
+.file-accordion.accordion-button:not(.collapsed) {
+    box-shadow: none !important;
+}
+body.theme-dark .accordion-button:not(.collapsed),
+.accordion-button:not(.collapsed) {
+    background: #198754;
+    color: white;
+}
+body.theme-dark .accordion-button:not(.collapsed) h4,
+.accordion-button:not(.collapsed) h4 {
+    color: white;
+}
+
+.password-show-hide {
+    position: absolute;
+    top: 43%;
+    transform: translateY(-57%);
+    right: 15px;
+    cursor: pointer;
+}
+
+.password-padding {
+    padding-right: 46px !important;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background: none !important;
+}
+
+@media (max-width: 991px) {
+    .center-form {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    #auth #auth-left {
+        padding: 5rem 15px;
+    }
+}
